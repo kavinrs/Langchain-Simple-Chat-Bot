@@ -4,7 +4,7 @@ from FastApi.app import router
 from dotenv import load_dotenv
 
 load_dotenv()
-
+print("Hello")
 app=FastAPI()
 
 # Enable CORS for frontend
